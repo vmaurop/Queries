@@ -1,5 +1,6 @@
 # Queries
 IDE:Visual studio 2015 enterprise
+
 C#
 framework: .NET
 console application
