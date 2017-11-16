@@ -24,7 +24,7 @@ namespace Queries
 
                 if (n <= 0 || min > max)
                 {
-                    Console.WriteLine("Count of the numbers should be greater  to zero and min greater or equal to zero");
+                    Console.WriteLine("Count of the numbers should be greater  to zero and max greater or equal to min");
                     data.Clear();
                     input(data);
                 }
