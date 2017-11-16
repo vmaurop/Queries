@@ -8,7 +8,7 @@ console application
 Using Linq  to Access a Collection of data of random numbers
 #Expressions.cs  -  All functions implement via LINQ (Language Integrated Query) with the method syntax
 
- 
+ --------------------------------------------------------------------------------------------------------
 
 We have random numbers into a list of integers
 The user sets the plural of how many numbers
