@@ -62,7 +62,7 @@ namespace Queries
             
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("exit new data\n1.Average 2.Max 3.Min 4.Even 5.Odd 6.Ascending sequence "+
-                "7.Descending sequence 8.Positive Numbers 9.Negative Numbers 10.Find a number if exists\n\n");
+                "7.Descending sequence 8.Positive Numbers 9.Negative Numbers 10.Find a number If exists\n\n");
             Console.ResetColor();
 
             
