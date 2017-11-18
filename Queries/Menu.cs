@@ -62,7 +62,7 @@ namespace Queries
             
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("exit new data\n1.Average 2.Max 3.Min 4.Even 5.Odd 6.Ascending sequence "+
-                "7.Descending sequence 8.Positive Numbers 9.Negative Numbers \n\n");
+                "7.Descending sequence 8.Positive Numbers 9.Negative Numbers 10.Find a number if exists\n\n");
             Console.ResetColor();
 
             
@@ -70,6 +70,7 @@ namespace Queries
             string input;
             while (true)
             {
+                Console.WriteLine("\n");
               Console.Write("Option:");
               input = Console.ReadLine();
 
@@ -113,6 +114,9 @@ namespace Queries
                     case "9":
                         Expressions.Negative(data);
                         break;
+                    case "10":
+                        Expressions.find(data);
+                        break;
                 }
                 Console.ResetColor();
             }
@@ -120,14 +124,18 @@ namespace Queries
         }
 
 
-        public static void Display(List<int> data)
+        public static void Display(List<int> T) 
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
-            foreach (int x in data)
+            foreach (int x in T)
             {
                 Console.Write(x + " ");
             }
+
             Console.ResetColor();
+            
+           
+           
         }
 
 
